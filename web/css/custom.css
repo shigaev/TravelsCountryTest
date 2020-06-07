@@ -1,0 +1,87 @@
+.navbar-inverse {
+    background-color: rgba(255, 255, 255, 0.55);
+    border: none;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.25);
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    color: #ffffff;
+    background-color: #00b1a1;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    color: #00b1a1;
+    background-color: transparent;
+}
+
+.jumbotron {
+    height: 400px;
+    margin-top: 20px;
+    background: url("../img/bg-index.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.btn-button {
+    background-color: #00b1a1;
+    color: #ffffff;
+    padding: 15px;
+    border: none;
+    transition: 0.5s;
+    border-radius: 3px;
+}
+
+.my-btn:hover {
+    background-color: #006158;
+}
+
+
+/* SELECT TABLE COUNTRY WIDGET */
+#feedback {
+    font-size: 1.4em;
+}
+
+#selectable .ui-selecting {
+    background: #FECA40;
+}
+
+#selectable .ui-selected {
+    background: #F39814;
+    color: white;
+}
+
+#selectable {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60%;
+}
+
+#selectable li {
+    margin: 3px;
+    padding: 0.5em;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+#selectable .ui-selected {
+    background: #00b1a1;
+}
+
+.country__li .ui-selectee {
+    color: #0f0f0f;
+}
+
+#selectable .ui-selecting {
+    background: #005049;
+}
+
+.hidden {
+    display: none;
+}
+
+.footer {
+    height: 60px;
+    background-color: #00b1a1;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
